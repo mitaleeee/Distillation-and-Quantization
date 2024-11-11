@@ -8,11 +8,11 @@
 
 ## About
 
-In this project we explored about distillation and quantization of various languae models. We finetuned BERT for AI content detection. Then this **"Finetuned"** underwent knowledege distillation to reduce the size and the inference time of the model. Even after distillation the models were observed to be heavy enough, so the need of quantization arose. Then we used dynamic quantization to further make our model memory efficient and faster. We converted the weights from fp32 to qint8, to achieve this.
+In this project we explored about distillation and quantization of various languae models. We finetuned BERT for AI content detection. Then this **"Finetuned"** underwent knowledege distillation to reduce the size and the inference time of the model. Even after distillation the models were observed to be heavy enough, so the need of quantization arose. Then we used dynamic quantization to further make our model memory efficient and faster. We converted the weights from fp32 to qint8, to achieve this. 
 
 ## Getting Started
 
-These are the instructions specifically related to th deployment of the model. These can be followed after the following models are placed in the models directory.
+These are the instructions specifically related to th deployment of the model. These can be followed after the following models are placed in the models directory. To obtain these models please refer to [this](https://www.kaggle.com/code/openmihirpatel/finetuning-and-distillation) kaggle notebook.
 
 1. teacher_weights.pth
 2. student_weights.pth
